@@ -8,4 +8,8 @@ Beginning assignment:
 PRO-TIP ~ Draw out the desired structure of the page and tackle sections one by one!
 
 
-
+Tips:
+- Area behind business name is a <div> with a dark, but semi-transparent background color (CSS: opacity)
+- Color of submit button has tones from background image
+- Give all inputs some sort of neutral color border
+    - When contact information validly completed give green border
