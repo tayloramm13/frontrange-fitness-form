@@ -46,6 +46,10 @@ form {
     
 }
 
+.small-container {
+    padding: 1em;
+}
+
 
 h2 {
     text-align: center;
@@ -64,8 +68,28 @@ li {
     padding: 1rem;
 }
 
-input {
+input, textarea {
     border: #E5E7EB;
 }
 
 
+textarea, .textbox {
+    margin: 20px 0 70px 124px;
+    text-align: center;
+    height: 5em;
+    vertical-align: top;
+}
+
+legend {
+    margin: 10px;
+    text-align: center;
+    border: 0px;
+}
+
+.activities {
+    border: 1px solid  rgb(224, 217, 194);
+}
+
+button {
+    margin: 40px 0 0 140px;
+}

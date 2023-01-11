@@ -43,11 +43,13 @@
             </ul>
             
             <section>
-                <h2>Activity Survey</h2>
-                <p>This section simply allows us to collect data to better serve YOUR specific activity needs. We appreciate your honest feedback.</p>
+             
+                    <h2>Activity Survey</h2>
+                    <p class="fyi">This section simply allows us to collect data to better serve YOUR specific activity needs. We appreciate your honest feedback.</p>
+                
                 <fieldset>
                     <legend>What is your preferred outdoor activity?</legend>
-                    <ul>
+                    <ul class="activities">
                         <li>
                             <label for="activity_1">Ski/Snowboarding</label>
                             <input type="radio" id="activity_1" name="exercise">
@@ -73,12 +75,11 @@
                             <input type="radio" id="activity_1" name="exercise">
                         </li>
                     </ul>
+
+                    <label for="message" class="textbox"> What are your mountain exploration goals?</label>
+                        <textarea type="text" id="message" name="message" minlength="50" maxlength="200" rows="15" cols="40" placeholder="Ex: I would like to hike 5 14ers!"></textarea>
+
                 </fieldset>
-                <div>
-                    <label for="message"> What are your mountain exploration goals?</label>
-                        <textarea type="text" id="message" name="message" minlength="50" maxlength="200" placeholder="Ex: I would like to hike 5 14ers!"></textarea>
-                    
-                </div>
                 <section>
                     <button type="submit">Submit Response</button>
                 </section>
