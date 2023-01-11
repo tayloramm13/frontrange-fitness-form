@@ -1,0 +1,71 @@
+@font-face {
+    font-family: customSerif;
+    src: url(SourceSerifPro-Regular.ttf);
+}
+
+/*For text-overlay on background-image */
+.container {
+    width: 100%;
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0px; 
+    right: 5px;
+    font-weight: bold;
+    text-align: end;
+    font-size: 60px;
+}
+
+
+/*Main Elements*/
+h1 {
+    font-family: customSerif;
+    color: white;
+    background-color: rgb(210, 201, 201);
+    opacity: .8;
+    padding: 10px;
+}
+
+body {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 1.15rem;
+    padding: 0.5rem;
+    margin: 0;
+    background-color: rgb(224, 217, 194);
+}
+
+form {
+    position: relative;
+    width: 600px;
+    height: 300px;
+    margin: 0 auto;
+    padding: 1em;
+
+    
+}
+
+
+h2 {
+    text-align: center;
+    margin-top: 2.5em;
+    margin-bottom: 0.4em;
+}
+
+ul {
+    border: 1px solid black;
+}
+
+li {
+    line-height: 3rem;
+    text-align: center;
+    list-style-type: none;
+    padding: 1rem;
+}
+
+input {
+    border: #E5E7EB;
+}
+
+
